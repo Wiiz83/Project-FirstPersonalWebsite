@@ -1,0 +1,238 @@
+/*CSS Document*/
+
+
+
+
+
+
+
+@font-face {
+	font-family: 'caviar_dreamsregular';
+	src: url('../font/CaviarDreams-webfont.eot');
+	src: url('../font/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'), url('../font/CaviarDreams-webfont.woff') format('woff'), url('../font/CaviarDreams-webfont.ttf') format('truetype'), url('../font/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/**Début page mes créations**/
+
+
+
+/**Fin page mes créations**/
+
+
+
+
+
+/**Début page qui-suis-je**/
+
+
+
+#container {
+	text-align: left;
+}
+#container #contact {
+	float: left;
+	margin-left: 50px;
+	width: 300px;
+}
+#container #contact p {
+	padding: 20px;
+	font-family: 'caviar_dreamsregular';
+}
+#container #contact p span {
+}
+#container #photo img {
+	float: right;
+	padding: 20px;
+}
+#container #accroche {
+	text-align: center;
+	font-family: 'caviar_dreamsregular';
+	font-size: 14px;
+	padding-top: 250px;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/**Fin page qui-suis-je**/
+
+
+
+
+
+BODY {
+	margin: 0;
+	padding: 0;
+	background-color: #ffff;
+	font-family: Arial;
+}
+#container {
+	width: 996px;
+	height: 850px;
+	margin: 0 auto;
+	box-shadow: 1px 1px 12px #555;
+	background-color: #FFF;
+}
+#container #header {
+	background-position: bottom;
+	height: 106px;
+	background-image: url(../images/background-banner.jpg);
+}
+#container #header .texte p {
+	float: left;
+	font-size: 14px;
+	color: #8f8f8f;
+	font: "Helvetica 35 Thin";
+	font-weight: none;
+	margin-top: 58px;
+	margin-left: -55px;
+}
+#container #header .texte p span {
+	font-weight: bold;
+	padding-top: -5px;
+}
+#container #header .logo {
+	float: left;
+	margin: 10px 0 0 35px;
+}
+#container #header .réseaux {
+	float: right;
+	margin: 5px 10px 0 0;
+}
+#container #menu_h {
+	text-align: center;
+	margin-left: -18px !important;
+	margin-top: -18px !important;
+
+}
+#container #menu_h .rubrique {
+	background-image: url(../images/background-menu.jpg);
+	box-shadow: 0 -2px 10px #000;
+	width: 860px;
+	height: 27px;
+	list-style: none;
+	padding-left: 172px;
+	margin: 0px;
+	padding: 0 0 0 172px;
+	font-family: 'caviar_dreamsregular';
+}
+#container #menu_h .rubrique li {
+	display: block;
+	float: left;
+	margin-top: 2px;
+}
+#container #menu_h .rubrique li a {
+	padding-top: 32px;
+	padding-left: 32px;
+	padding-right: 32px;
+	font-size: 15px;
+	text-decoration: none;
+	color: #ffffff;
+
+}
+#container #menu_h .rubrique li a:hover {
+	color: #8f8f8f;
+}
+#container #menu_h .rubrique li .active {
+	color: #ff6000;
+	font-weight: bold;
+}
+#container #description {
+	height: 126px;
+	margin-top : 90px;
+	background-image: url(../images/background-description.jpg);
+}
+#container #description p {
+	float: left;
+	color: #000;
+	font: "Helvetica 35 Thin";
+	font-size: 13px;
+	text-align: center;
+	width: 670px;
+	height: 51px;
+	color: #FFF;
+	margin-top: 30px;
+	margin-left: 45px;
+}
+#container #description p span {
+	float: left;
+	color: #000;
+	font: "Helvetica 35 Thin";
+	font-size: 11px;
+	color: #FFF;
+	margin-left: 486px;
+	padding-top: 10px;
+}
+#container #description p span a {
+	text-decoration: none;
+	color: #000;
+	font: "Helvetica 35 Thin";
+	text-align: center;
+	width: 670px;
+	height: 51px;
+	color: #FFF;
+}
+#container #description p span a:hover {
+	text-decoration: none;
+	color: #ff6000;
+	font-weight: bold;
+}
+#container #items {
+	margin-top: -16px;
+	background-image: url(../images/background-items.jpg);
+	width: 997px;
+	height: 101px;
+}
+#container #items ul {
+}
+#container #items ul li {
+	padding-left: 60px;
+	list-style: none;
+	width: 81px;
+	height: 68px;
+	float: left;
+	padding-top: 17px;
+}
+#copyright {
+	color: #000;
+	font: "Helvetica 35 Thin";
+	font-size: 10px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+#pod-4 ul {
+	padding: 5px 0 5px;
+}
+#pod-4 ul li {
+	display: inline;
+}
+#pod-4 ul li h3 {
+	color: #000;
+	text-decoration: none;
+	padding: 5px 0;
+	padding-left: 20px;
+}
+
+
+font.standard {font-family:arial; color: #000000; font-size: 10pt}
+
+a.standard:link {font-family: arial; color: #FFFFFF; font-size: 9pt; text-decoration: none; font-weight: bold}
+a.standard:active {font-family: arial; color: #FFFFFF; font-size: 9pt; text-decoration: none; font-weight: bold}
+a.standard:visited {font-family: arial; color: #FFFFFF; font-size: 9pt; text-decoration: none; font-weight: bold}
+a.standard:hover {font-family: arial; color: #CCFFFF; font-size: 9pt; text-decoration: none; font-weight: bold}
+
+a.guest:link {font-family: arial; color: #006699; font-size: 10pt; text-decoration: none}
+a.guest:active {font-family: arial; color: #006699; font-size: 10pt; text-decoration: none}
+a.guest:visited {font-family: arial; color: #006699; font-size: 10pt; text-decoration: none}
+a.guest:hover {font-family: arial; color: #006699; font-size: 10pt; text-decoration: underline}
+
+body.standard {background-color: #FFFFFF; margin-left:12px}
+
+td.header {font-family: arial; color: #FFFFFF; font-size: 10pt; font-weight:bold; background-color: #006699}
+td.standard {font-family: arial; color:#000000; font-size: 10pt; background-color: #ffffff;padding-left:4}
+
+td.aheader {font-family: arial; color: #FFFFFF; font-size: 10pt; font-weight:bold; background-color: #006699}
+td.astandard {font-family: arial; color: #000000; font-size: 10pt; background-color: #ffffff;padding-left:4}
+
+input.button {font-family: arial; color:#ffffff; font-size: 10pt;font-weight:bold; background-color: #006699; border-style: outset}

@@ -1,0 +1,1 @@
+<?php $monsite="http://www.VOTRE-SITE.fr";?>

@@ -1,0 +1,212 @@
+<html lang="fr-FR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Lucas Uzan - Student Website</title>
+
+<!--[if lt IE 9]>
+
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+	<![endif]-->
+
+<link rel="icon" type="images/favicon.png" href="/images/favicon.png" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/stylebis.css" rel="stylesheet" type="text/css" />
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+
+	_gaq.push(['_setAccount', 'UA-8097338-1']);
+
+	_gaq.push(['_trackPageview']);
+
+	setTimeout('_gaq.push([\'_trackEvent\', \'NoBounce\', \'Over 030 seconds\'])',30000);
+
+	  (function() {
+
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+	  })();
+
+	</script>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+
+	  //chargement de swfobject à partir du CDN de google
+
+      google.load("swfobject", "2.1");
+
+  
+
+      // Update a particular HTML element with a new value
+
+      function updateHTML(elmId, value) {
+
+        document.getElementById(elmId).innerHTML = value;
+
+      }
+
+      
+
+      // chargement de la vidéo concerné dans le player
+
+      function loadVideo(idvid) {
+
+        var videoID = idvid;
+
+        if(ytplayer) {
+
+          ytplayer.loadVideoById(videoID);
+
+        }
+
+      }
+
+
+
+      // fonction appellé en cas d'erreur
+
+      function onPlayerError(errorCode) {
+
+        alert("An error occured of type:" + errorCode);
+
+      }
+
+      
+
+      // fonction appellé au chargement du player
+
+      function onYouTubePlayerReady(playerId) {
+
+        ytplayer = document.getElementById("ytPlayer");
+
+        ytplayer.addEventListener("onError", "onPlayerError");
+
+      }
+
+	  
+
+      // The "main method" of this sample. Called when someone clicks "Run".
+
+      function loadPlayer() {
+
+        var videoID = 'AtjA2PdIoLc';  // vidéo à charger
+
+        var params = { allowScriptAccess: "always" }; // persmission d'acces d'un autre domaine
+
+        var atts = { id: "ytPlayer", wmode:"transparent" };  // attributs du player
+
+		// embed avec swf object
+
+        swfobject.embedSWF("http://www.youtube.com/v/" + videoID + "&enablejsapi=1&playerapiid=player1",
+
+		"videoDiv", //id de l'élément contenant le player
+
+		700, //largeur du player
+
+		340, //hauteur du player
+
+		"8", null, null, params, atts); 
+
+      }
+
+      function _run() {
+
+        loadPlayer();
+
+      }
+
+	  // ajout d'infos sur les vidéos
+
+	  function youtubeFeedCallback( data ){
+
+		document.writeln( data.entry[ "title" ].$t );
+
+	  } 
+
+      google.setOnLoadCallback(_run);
+
+    </script>
+</head>
+
+<body>
+<div id="container">
+  <div id="header">
+    <div class="logo"><img src="images/logo.png" alt="Logo LU" /></div>
+    <div class="texte">
+      <p>ÉTUDIANT <span>DUT MMI</span></p>
+    </div>
+    <div class="réseaux"><img src="images/reseaux.png" alt="Réseaux sociaux" border="0" usemap="#Map" />
+      <map name="Map" id="Map">
+        <area shape="rect" coords="4,6,21,23" target="_blank"  href="https://www.facebook.com/lucas.uzan.3" />
+        <area shape="rect" coords="26,7,43,23" target="_blank"  href="https://twitter.com/Wiiz83" />
+        <area shape="rect" coords="48,8,65,24" target="_blank"  href="https://plus.google.com/u/0/105240826043526813559/posts" />
+        <area shape="rect" coords="70,7,86,24" target="_blank"  href="http://www.linkedin.com/profile/view?id=252682429&amp;trk=hb_tab_pro_top" />
+        <area shape="rect" coords="92,7,108,24" target="_blank" href="http://www.viadeo.com/profile/002jk53fr5r5qbt/?ga_from=Fu:undefined;Fb:header-top_right;Fe:L1-premium;" />
+      </map>
+    </div>
+  </div>
+  <div id="menu_h">
+    <ul class="rubrique">
+      <li><a href="./index.html">Accueil</a></li>
+      <li><a href="./qui_suis_je.html">Qui-suis-je ?</a></li>
+      <li><a href="./mes_creations.html"  >Mes créations</a></li>
+      <li><a href="./coin_detente.html" class="active">Coin Détente</a></li>
+      <li><a href="./livre_d_or.php">Livre d’Or</a></li>
+    </ul>
+  </div>
+  <div id="videoDiv"> Dans ce DIV la vidéo sera chargée. </div>
+  <section id="sousplayer">
+    <figure onClick="loadVideo('72cjhPMy7Uo')"> <img src="http://img.youtube.com/vi/72cjhPMy7Uo/0.jpg" width="180" alt="" />
+      <figcaption><script type="text/javascript" src="http://gdata.youtube.com/feeds/api/videos/72cjhPMy7Uo?v=2&amp;alt=json-in-script&amp;callback=youtubeFeedCallback"></script></figcaption>
+    </figure>
+    <figure onClick="loadVideo('QWKqTG75W6o')"> <img src="http://img.youtube.com/vi/QWKqTG75W6o/0.jpg" width="180" alt="" />
+      <figcaption><script type="text/javascript" src="http://gdata.youtube.com/feeds/api/videos/QWKqTG75W6o?v=2&amp;alt=json-in-script&amp;callback=youtubeFeedCallback"></script></figcaption>
+    </figure>
+    <figure onClick="loadVideo('o_gOdvIHFXE')"> <img src="http://img.youtube.com/vi/o_gOdvIHFXE/0.jpg" width="180" alt="" />
+      <figcaption><script type="text/javascript" src="http://gdata.youtube.com/feeds/api/videos/o_gOdvIHFXE?v=2&amp;alt=json-in-script&amp;callback=youtubeFeedCallback"></script></figcaption>
+    </figure>
+  </section>
+</div>
+
+<!--<div id="video_yt">
+
+    <object type="application/x-shockwave-flash" width="853" height="480" data="http://www.youtube.com/v/AtjA2PdIoLc?version=3&amp;hl=fr_FR">
+
+        <param name="movie" value="http://www.youtube.com/v/AtjA2PdIoLc?version=3&amp;hl=fr_FR" />
+
+        <param name="wmode" value="transparent" />
+
+    </object>
+
+<!--[if lte IE 6 ]>
+
+    <embed src="http://www.youtube.com/v/_etwz7NkemE&amp;hl=fr" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
+
+<![endif]--> 
+
+<!--</div>
+
+<div id="video_yt">
+
+  <object type="application/x-shockwave-flash" width="853" height="480" data="http://www.youtube.com/watch?v=si8nrohvumk">
+
+    <param name="movie" value="http://www.youtube.com/watch?v=si8nrohvumk" />
+
+    <param name="wmode" value="transparent" />
+
+  </object>
+
+  <!--[if lte IE 6 ]>
+
+    <embed src="http://www.youtube.com/watch?v=si8nrohvumk" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed>
+
+<![endif]-->
+
+</body>
+</html>

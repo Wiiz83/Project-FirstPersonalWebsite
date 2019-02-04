@@ -1,0 +1,1 @@
+<?php $lalang="fr" ; ?>

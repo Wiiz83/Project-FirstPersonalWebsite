@@ -1,0 +1,565 @@
+/* CSS Document */
+/**********  A conserver  ******************************************************************************************/
+/* LICENCE CC 3.0 internationale modif avec même licence pas d'utilisation commerciale  liens sur LiVror.fr        */
+/* LICENCE CC 2.0 France modif avec même licence pas d'utilisation commerciale   liens sur LiVror.fr               */
+/* Laisser les liens http://www.livror.fr                                                                          */
+/*******************************************************************************************************************/
+/*  Merci à Catalin Rosu pour le menu header vous retrouverez la source sur  http://www.red-team-design.com/       */  
+/*  Ce menu simple d'utilisation fonctionne sous différents navigateurs et est mon préféré en version libre.       */
+/*******************************************************************************************************************/
+.bodymessage {
+margin : auto;
+text-align : center;
+background-color : transparent;
+background-attachment:fixed;
+font-family : comic, Arial, Arial Black, Times New Roman, Times, serif;
+} 
+/************************  Table cadre du livre d'or **************************/
+.tablebox {
+width  : 750px ;
+font-size : 10pt;
+border : 5px solid silver;
+opacity:0.8;
+text-align : center;
+border-radius: 2em 2em 0em 0em/ 2em 2em 0em 0em;
+background-color : #E8EA98;
+border-collapse : separate; 
+padding-bottom : 2px;
+margin-bottom : 10px;
+}
+/************************ Zone limite du livre d'or ***************************/
+.limitaire {
+width:980px;
+height:550px;
+overflow:scroll;
+}
+/************************ Cadre popup livre d'or et du popup ******************/
+.cadre {
+width  : 98% ;
+height:400pt;
+font-size : 10pt;
+color:#000000;
+border : 1px solid grey;
+border-radius: 2em 2em 0em 0em/ 2em 2em 0em 0em;
+background-color : #E8EA98;
+border-collapse : separate; 
+border-spacing : 5px;
+padding-bottom : 2px;
+margin-bottom : 10px;
+}
+/************************ Titre du livre d'ors ********************************/
+.titre_page {
+width  : 968px ;
+background-color : #E8EA98;
+border : 5px solid silver;
+padding : 10px;
+margin-bottom:5px;
+opacity:0.9;
+border-radius: 2em 2em 2em 2em/ 2em 2em 2em 2em;
+color : #000000;
+font-size : 16pt;
+text-align : center;
+font-weight : bold;
+}
+/***************** table zone saisie du popup + CAPTCHA + smiley **************/
+.tablcaptcha {
+width  : 90% ;
+font-size : 10pt;
+color:#000000;
+border : 1px solid #000000;
+text-align : center;
+border-radius: 2em 2em 0em 0em/ 2em 2em 0em 0em;
+background:  #E8EA98;
+border-collapse : separate; 
+border-spacing : 5px;
+}
+/***************** TD de la zone captcha uniquement  **************************/
+.tdcaptchavide {
+color:blue;
+text-align : center;
+width  : 80% ;
+border : 1px solid #007BA8;
+background: transparent;
+border-radius: 2em 2em 0em 0em/ 2em 2em 0em 0em;
+}
+
+/***************** TD de la zone captcha uniquement  **************************/
+.tdcaptcha {
+color:#ffffff;
+text-align : center;
+width  : 80% ;
+border : 1px solid #007BA8;
+background: url('../captcha/captcha.png') repeat;
+border-radius: 2em 2em 0em 0em/ 2em 2em 0em 0em;
+}
+/***************** Table de la zone code smiley *******************************/
+.tablcaptcharetourne {
+width  : 90% ;
+font-size : 10pt;
+color:#000000;
+border : 1px solid #000000;
+text-align : center;
+border-radius: 0em 0em 2em 2em/ 0em 0em 2em 2em;
+background: url('../captcha/captcha.png') repeat;
+border-collapse : separate; 
+border-spacing : 5px;
+}
+
+INPUT[type="text"]:focus:hover {
+ background: #99FF99 ;
+ }
+/******************* Table lecture des messages *******************************/
+.tablemessage {
+width  : 95% ;
+font-size : 10pt;
+color:#000000;
+border : 1px solid grey;
+border-radius: 2em 2em 0em 0em/ 2em 2em 0em 0em;
+background-color : #E8EA98;
+border-collapse : separate; 
+border-spacing : 5px;
+padding-bottom : 2px;
+margin-bottom : 10px;
+}
+
+.tdmsg {
+width  : 95% ;
+text-align : left;
+}
+
+.intitule {
+color : #4E958C;
+font-size : 10pt;
+}
+
+.msg {
+text-align : left;
+color : black;
+font-size : 10pt;
+}
+
+.lasaisie {
+background-color : transparent;  
+padding : 1px;
+color : black;
+font-size : 10pt;
+text-align : center;
+}
+
+.comment {
+background-color : transparent;  
+padding : 1px;
+color : silver;
+font-size : 10pt;
+text-align : center;
+}
+
+/******************************** Liens ***************************************/
+a {
+color : #8B0000 /*#64A49B*/;
+text-decoration : none;
+}
+
+a:hoover {
+color : blue;
+text-decoration : none;
+}
+
+a:visited {
+color : red;
+text-decoration : none;
+}
+
+/********************* Zone saisie des message ********************************/
+textarea {
+background-color : #E8EA98;
+border : 5px solid silver;
+padding : 5px;
+margin-bottom:5px;
+opacity:0.9;
+border-radius: 2em 2em 2em 2em/ 2em 2em 2em 2em;
+color : #000000;
+font-size : 11pt;
+text-align : left;
+font-weight : bold;
+}
+/*  Police pour les messages du livre d'or */
+.italiq {
+font-style: italic;
+}
+
+.souligne {
+text-decoration: underline;
+}
+
+.gras{
+font-weight: bold;
+}
+/*  peuvent $etre ajoutées*/
+.barre {
+text-decoration: line-through;
+}
+
+.ligne_dessus {
+text-decoration: overline;
+}
+/* blocs des polices et des taille */
+.blocvert{
+padding: 5px;
+display: block;
+display:inline;
+background: linear-gradient( #00FF40,#E8EA98); 
+border-radius: 10px;
+margin-left: 5px;  
+margin-right: 5px;
+}
+.blocbleu{
+padding: 5px;
+display: block;
+display:inline;
+background: linear-gradient( #81F7F3,#E8EA98); 
+border-radius: 10px;
+margin-left: 5px;  
+margin-right: 5px;
+}
+.blocrouge{
+padding: 5px;
+display: block;
+display:inline;
+background: linear-gradient( #FA5858,#E8EA98); 
+border-radius: 10px;
+margin-left: 5px;  
+margin-right: 5px;
+}
+.blocpolice{
+padding: 5px;
+/*display: block;
+display:inline; */
+background: linear-gradient( silver,#E8EA98); 
+border-radius: 10px;
+margin-left: 5px;  
+margin-right: 5px;
+}
+
+/* popuyp aide pour bbcodes */
+a.popaidepop span {display: none;}
+a.popaidepop:hover span {
+display: inline; 
+position: absolute;
+/*white-space: nowrap;*/
+height:5;                       
+width:200px;                   
+top: 140px; 
+left: 50px;
+}
+.poparea {
+font-family: "Comic Sans MS",Georgia,serif,Times New Roman,Times, serif ;
+font-size:20px;
+background: #111;
+background: -moz-linear-gradient(#444, #111);
+background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+background: -webkit-linear-gradient(#444, #111);
+background: -o-linear-gradient(#444, #111);
+background: -ms-linear-gradient(#444, #111);
+background: linear-gradient(#444, #111);
+/*border : 2px solid silver;*/
+color : #ffffff;
+text-align : left;
+
+}
+/********************* Bouton sauf type text **********************************/
+input[type="submit"], input[type="reset"], input[type="button"] {
+font-family: Arial,sans-serif; 
+font-size: 9pt; 
+width: 160px; 
+height: 25px; 
+margin-top: 10px;  
+margin-bottom: 10px;
+text-align: center; 
+color: #000000; 
+background: linear-gradient( #ffffff,#E8EA98); 
+background: linear-gradient( #ffffff, #E8EA98); 
+background: linear-gradient( #ffffff, #E8EA98); 
+background: linear-gradient( #ffffff, #E8EA98); 
+background: linear-gradient( #ffffff, #E8EA98);
+border-radius: 20px;
+box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5), 0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+/*************************** Message d erreur *********************************/
+.moterreur {
+width : 75%;
+margin : auto;
+border : 3px solid blue;
+background-color : yellow;
+color : #dd0033;
+font-family : comic, Arial, Times New Roman, Times, serif;
+font-size : 9pt;
+text-align : center;
+}
+
+.tablerreurcap {
+width  : 100% ;
+font-size : 10pt;
+color:#000000;
+border : 1px solid #000000;
+text-align : center;
+border-radius: 2em 2em 0em 0em/ 2em 2em 0em 0em;
+background-color : #E8EA98;
+border-collapse : separate; 
+border-spacing : 5px;
+}
+
+/***************************** Zone footer ************************************/
+.pied {
+border : 5px;
+background-color : transparent;  
+padding : 1px;
+color : #000000;
+font-size : 8pt;
+text-align : center;
+}
+/************************ Cadre popup livre d'or et du popup ******************/
+.tablediapo {
+width : 95%;
+text-align : center;
+margin-top : 5px;
+margin-right : auto;
+margin-bottom : 5px;
+margin-left : auto;
+border-spacing : 3px;
+border : red solid 0;
+background-color : silver;
+}
+
+.tdcouleur1 {
+margin : auto;
+font-size: 10pt;
+text-align: center;
+color: black;
+border: 1px solid black;
+background-color: transparent;
+padding: 2px;
+}
+/***************************** Zone Admin  ************************************/
+/************************ Zone limite du des smiley en admin ******************/
+.limitsmiley {
+border: 3px solid black;
+width:90%;
+height:300px;
+overflow:scroll;
+}
+/************************ Zone limite du des pays en admin ********************/
+.limitpays {
+border: 3px solid black;
+text-align: center;
+width:300px;
+height:300px;
+overflow:scroll;
+}
+
+
+/*-------------------------------------------------------------------*/
+/* bulle de 5/100 pour petit texte  */
+/*-------------------------------------------------------------------*/
+
+a.popsmall span {display: none;}
+a.popsmall:hover span {
+   display: inline; 
+   position: absolute;
+   white-space: nowrap;
+   font-size:12px;                        /* taille police*/
+   font-weight:normal;
+   font-style:italic;                    /* style italique */
+   font-family:"Times New Roman", Times, serif ; /* famille de police */ 
+   color:green;                        /* couleur texte */
+   height:5;                            /* hauteur */
+   width:400px;                      /* largeur */
+   top: 5px; 
+   left: 50px;                       /* position rapport au texte */
+}
+/************************  Table cadre du livre d'or **************************/
+.cadre_admin {
+width  : 80% ;
+font-size : 10pt;
+border : 5px solid silver;
+opacity:0.8;
+text-align : center;
+border-radius: 2em 2em 0em 0em/ 2em 2em 0em 0em;
+background-color : #E8EA98;
+border-collapse : separate; 
+padding-bottom : 2px;
+margin-bottom : 10px;
+}
+
+.text_vert {
+background-color : transparent;
+color : green;
+font-size : 12pt;
+font-weight : bold;
+}
+
+/*ADMINISTRATION */
+
+.text_aide {
+color : #4E958C;
+font-size : 16pt;
+}
+/*  Merci à Catalin Rosu un webdesigner/developer que vous retrouvez sur  http://www.red-team-design.com/   
+Ce menu très simple d'utilisation fonctionne sous différents navigateurs et reste un de mes préféré.*/
+#menu{
+        width: 100%;
+        margin: 0;
+        padding: 10px 0 0 0;
+        list-style: none;
+        background: #111;
+        background: -moz-linear-gradient(#444, #111);
+        background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+        background: -webkit-linear-gradient(#444, #111);
+        background: -o-linear-gradient(#444, #111);
+        background: -ms-linear-gradient(#444, #111);
+        background: linear-gradient(#444, #111);
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        -moz-box-shadow: 0 2px 1px #9c9c9c;
+        -webkit-box-shadow: 0 2px 1px #9c9c9c;
+        box-shadow: 0 2px 1px #9c9c9c;
+}
+
+#menu li{
+        float: left;
+        padding: 0 0 10px 0;
+        position: relative;
+}
+
+#menu a{
+        float: left;
+        height: 25px;
+        padding: 0 25px;
+        color: #999;
+        text-transform: uppercase;
+        font: bold 12px/25px Arial, Helvetica;
+        text-decoration: none;
+        text-shadow: 0 1px 0 #000;
+}
+
+#menu li:hover > a{
+        color: #fafafa;
+}
+
+*html #menu li a:hover{ /* IE6 */
+        color: #fafafa;
+}
+
+#menu li:hover > ul{
+        display: block;
+}
+
+/* Sous-menu */
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;
+    background: #444;
+    background: -moz-linear-gradient(#444, #111);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+    background: -webkit-linear-gradient(#444, #111);
+    background: -o-linear-gradient(#444, #111);
+    background: -ms-linear-gradient(#444, #111);
+    background: linear-gradient(#444, #111);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#menu ul li{
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+}
+
+#menu ul li:last-child{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#menu ul a{
+    padding: 10px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+*html #menu ul a{ /* IE6 */
+        height: 10px;
+        width: 150px;
+}
+
+*:first-child+html #menu ul a{ /* IE7 */
+        height: 10px;
+        width: 150px;
+}
+
+#menu ul a:hover{
+        background: #0186ba;
+        background: -moz-linear-gradient(#04acec,  #0186ba);
+        background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+        background: -webkit-linear-gradient(#04acec,  #0186ba);
+        background: -o-linear-gradient(#04acec,  #0186ba);
+        background: -ms-linear-gradient(#04acec,  #0186ba);
+        background: linear-gradient(#04acec,  #0186ba);
+}
+
+#menu ul li:first-child a{
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+
+#menu ul li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #444;
+}
+
+#menu ul li:first-child a:hover:after{
+    border-bottom-color: #04acec;
+}
+
+#menu ul li:last-child a{
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Rétablissement du flottement */
+#menu:after{
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+}
+
+* html #menu             { zoom: 1; } /* IE6 */
+*:first-child+html #menu { zoom: 1; } /* IE7 */

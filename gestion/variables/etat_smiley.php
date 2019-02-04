@@ -1,0 +1,1 @@
+<?php $smileON="O";?>

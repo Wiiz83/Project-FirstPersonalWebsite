@@ -1,0 +1,122 @@
+<?php
+//**********  A conserver  ******************************************************************************************
+// LICENCE CC 3.0 internationale modif avec même licence pas d'utilisation commerciale  liens sur LiVror.fr         *
+// LICENCE CC 2.0 France modif avec même licence pas d'utilisation commerciale   liens sur LiVror.fr                *
+// Laisser les liens http://www.livror.fr                                                                           *
+//*******************************************************************************************************************
+$Tretour_site  ="Back to the site !";
+$Tmaintenance  =" Maintenance in progress";
+$accueil    = "Welcome to my guestbook";
+$ladresse   = "Site";
+$pasmsg     = "There are no messages in the guestbook."; 
+$ecrimsg    = "Write a message";
+$nbremsg    = "Number of posts: ";
+$mercimsg   = "I thank you for leaving a message !";
+$lenom      = "Name or Nickname: ";
+$laregion   = "R&egrave;gion : ";
+$saisipays  = "Country:";
+$lanote     = "Note: ";
+$lemsg      = "Your message: "; 
+$caract     = "Characters"; 
+$efface     = "Erase the message";
+$Taide_pop =  "Put your text between the beacons !";
+$T_Italiq="Italic";
+$T_Souligns="underline";
+$T_Gras="Bold";
+$control    = "ANTI SPAM Control";
+$envoi      = "Send the message!";
+$erreurcode = "ERROR IN ENTERING THE CODE change the captcha code if you do not read it!";
+$retourmsg  = "Back to the form ! ";
+$etranger   = "Stranger";
+$ferme      = "Close the window";
+$postele    = "Send: ";
+$par        = " By:  ";
+$de         = "From: " ;
+$recharge   = "image reload !";
+$erreurmail = "WoOOops An error in sending the e-mail, try again and notify the webmaster if the problem persists!";
+$okmail     = "The webmaster thank you for your message and warned of the deposit!";
+$Tverifmailetsite="You thought of modifying your address e-mail and the address of your site!";
+$Tadminccueil         = "Home";
+$Taffich_region       = "show Region";
+$Taffich_pays         = "View country";
+$Taffich_note         = "View Report";
+$Taffich_sit_post     = "Show site poster";
+$Taffich_smiley       = "Show smilies";
+$Taffich_choix_pack   = "Choice Pack smileys";
+$Taffich_recoit_mail  = "Receive an email";
+$Taffich_choix_lang   = "Select language";       
+$Taffich_adress_site  = "Change the site address";
+$Taffich_change_mail  = "Change the email address";
+$Taffich_gere_mess    = "Message Management";
+$Taffich_param        = "Settings";
+$Tadmingene           = "Administration General";
+$Taffich_aides        = "Aids";
+$Taffich_forum        = "Forum";
+$Taffich_a_propos     = "About";
+$Taffich_version      = "Version"; 
+$Taffich_licence      = "Licence";
+$Taffich_participe    = "Participate";
+$Taffich_outils       = "Tools";
+$Taffich_par_outil    = "Share your tools";
+$Taffich_deconnect    = "Disconnecting";
+$Tadminquit           = "Disconnecting";
+$Tbienvenue            ="Welcome to your administration area.";
+$Tvot_nom              ="Name :  ";
+$Tvot_pass             ="Password :  ";
+$Taccueil_session      ="Welcome to your Session : ";
+$Taccueil_ip           ="IP Address : ";
+$Taccueil_possess      ="Session position : ";
+$Taccueil_limit        ="Limited time to : ";
+$Tvot_version          = "Your version : ";
+$Tder_version          = "Latest version : ";
+$Tverif_la_version     = "Check and download the latest version.";
+$Taccueil_ver          ="You have the latest version ! ";     
+$Taccueil_autre_ver    ="There is another version of &nbsp;";
+$Taccueil_verif_ver    ="&nbsp;&nbsp;  Check Version";
+$Taccueil_supp_install ="For your safety Delete the Install directory manually !";
+$Tperdu                 = "Are-You lost";
+$Tmodif_champ           = "Change selection !";
+$Tenreg                 = "Save Changes !";
+$Tvoi                   = "Making Field visible on your book";
+$Tvoi_pas               = "Make the invisible field of your book";
+$Trecevez_mail          = "You will receive a message to each new message in your book";  
+$Trecevez_pas_mail      = "You will not receive email when a new message is posted on your book";
+$Trecoi_pas_mail        = "Do not receive message";
+$Trecoi_mail            =  "Receive message";
+$Tlang                  = "The language is : ";
+$Tvoi_site              = "Field site poster is visible on your book";
+$Tvoi_pas_site          = "Field site poster is invisible on your book";
+
+$Taffich_police="Choice of the police";
+$Tvoi_pas_police = "The choice of font is invisible on your book";
+$Tvoi_police = "The choice of font is visible on your book";
+
+$Taffich_taille="Choice of text sizes";
+$Tvoi_pas_taille = "The choice of sizes of text is invisible on your book";
+$Tvoi_taille = "The choice of text sizes is visible on your book";
+
+$Tvoi_note              = "The note is visible on your book"; 
+$Tvoi_pas_note          = "The note is invisible on your book";
+$Tvoi_pays              = "The country is visible on your book</span>"; 
+$Tvoi_pas_pays          = "The country is invisible on your book";
+$Tvoi_region            = "The area is visible on your book</span>";
+$Tvoi_pas_region        = "The area is invisible on your book";
+$Touvrir_livre          = "OPEN BOOK";
+$Tfermer_livre          = "CLOSE THE BOOK";
+$Tlivre_open            = "The guestbook is CLOSED  <br><br> You can access the menu management posts<br><br>and no one can post messages on the book!  <br><br>Don\'t forget open the book before you go! ";        
+$Tlivre_close           = "The guestbook is OPEN for posters <br><br>MUST close the administration mode!";
+$Tvoi_smiley            = "The smileys are visible on your book</span>"; 
+$Tvoi_pas_smiley        = "The smileys are invisible on your book";
+$Tnew_mail              = "New mail : ";
+$Tadress_mail           = "Your mail: ";
+$Tadress_site           = "Site address: ";
+$TNew_adress_site       = "New address of your website : ";
+$Tchoix_pack            = "The selected smiley pack : ";
+$Text_modif_msg         = "To change a Post change the area between ";
+$T_et                   = " and ";
+$Text_supp_msg          = "To remove a message delete from <NewMsg>  to  <\NewMsg> ";
+// Alert
+$Tacces_non             = "Error on file";
+$Tacces_rep_non         = "Error on the directory";
+$Tcqui                  = "Input Error!";
+?>

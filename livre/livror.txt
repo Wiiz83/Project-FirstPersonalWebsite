@@ -1,0 +1,63 @@
+
+    <NewMsg>
+      <table class="tablemessage">
+         <tr>
+          <td class="tdmsg">
+             <span class="intitule">Post&eacute; le: </span> 
+             <span class="lasaisie">14/1/2015</span>
+             <span class="intitule"> par:  </span>
+             <span class="lasaisie">  Test</span>
+          &nbsp;&nbsp;<span class="intitule">de: </span>
+             <span class="lasaisie">(08)Ardennes</span>
+          &nbsp;&nbsp;<span class="intitule">Pays :</span>
+             <img src="./img/pays/fr.png" >
+          &nbsp;&nbsp;<span class="intitule">Note: </span>
+             <span class="lasaisie">05/10</span>
+          &nbsp;&nbsp;<a href="http://www.test.fr."target="_blank">
+              <img src="./img/site.png" alt="Site" style="border:0;" title="Site"></a>
+          </td>
+         </tr>
+         
+         <tr>
+          <td class="tdmsg">
+              <span class="message">
+                 Test
+              </span>
+          </td>
+        </tr>
+      </table>
+    </NewMsg>
+    
+    
+    <NewMsg>
+      <table class="tablemessage">
+         <tr>
+          <td class="tdmsg">
+             <span class="intitule">Post&eacute; le: </span> 
+             <span class="lasaisie">22/1/2014</span>
+             <span class="intitule"> par:  </span>
+             <span class="lasaisie">  Lucas</span>
+          &nbsp;&nbsp;<span class="intitule">de: </span>
+             <span class="lasaisie">(38)Is&#232;re</span>
+          &nbsp;&nbsp;<span class="intitule">Pays :</span>
+             <img src="./img/pays/fr.png" >
+          &nbsp;&nbsp;<span class="intitule">Note: </span>
+             <span class="lasaisie">06/10</span>
+          &nbsp;&nbsp;<a href="http://www.lucas-uzan.fr."target="_blank">
+              <img src="./img/site.png" alt="Site" style="border:0;" title="Site"></a>
+          </td>
+         </tr>
+         
+         <tr>
+          <td class="tdmsg">
+              <span class="message">
+                 <span class="gras">Bonjour !</span>
+<span class="italiq">Voici mon site personnel</span>
+<font size="4">Laissez moi un message ! </font> <img src="./img/smiley/pack01/Joker05.gif">
+              </span>
+          </td>
+        </tr>
+      </table>
+    </NewMsg>
+    
+    
